@@ -1,3 +1,10 @@
+echo "# ooo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/fborutta/ooo.git
+git push -u origin main
 function varargout = StructBrowser_gui_g(varargin)
 % STRUCTBROWSER_GUI_G M-file for StructBrowser_gui_g.fig
 %      STRUCTBROWSER_GUI_G, by itself, creates a new STRUCTBROWSER_GUI_G or raises the existing
